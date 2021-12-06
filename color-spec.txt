@@ -1,0 +1,5 @@
+Light Blue: 008ECC
+Dark Blue: 3A4856
+Downtone Blue : 9DADBC
+Light Maroon: C16997
+Dark Maroon: 89664 
