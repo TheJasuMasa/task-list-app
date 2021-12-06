@@ -4,16 +4,17 @@ const AddTask = ( {onAdd }) => {
 
     const onSubmit = (e) =>{
         e.preventDefault()
-        
+
         if(!text){
             alert('Please add a task')
-        }
+        } else{
 
         onAdd({ text, day, reminder})
 
         setText('')
         setDay('')
         setReminder(false)
+        }
     }
 
     const [text, setText] = useState('')

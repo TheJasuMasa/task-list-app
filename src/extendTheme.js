@@ -1,3 +1,6 @@
+import { extendTheme } from '@chakra-ui/react'
+
+const customTheme = extendTheme({
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 * {
@@ -126,3 +129,7 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+})
+
+export default customTheme
